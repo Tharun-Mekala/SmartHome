@@ -34,6 +34,7 @@ export default function DashBoard({ navigation }) {
 		  };
   
 		  setRooms([...rooms, newRoom]);
+      setRoomName('');
 		  toggleModal();
 		}
 	  }
